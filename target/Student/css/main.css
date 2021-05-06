@@ -1,0 +1,146 @@
+.main {
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.main .top {
+    width: 830px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 20px;
+    color: #000;
+    font-weight: bolder;
+}
+
+label {
+    width: 80px;
+    font-size: 20px;
+    color: #000014;
+    text-align: right;
+    display: inline-block;
+}
+
+#studentname, #birthday, #description, #avgScore {
+    width: 265px;
+    height: 35px;
+    font-size: 15px;
+    line-height: 35px;
+    padding-left: 10px;
+    margin-top: 10px;
+    border: 1px solid #040404;
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    font-family: 微软雅黑;
+    letter-spacing: 8px;
+    padding-left: 12px;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(top, #66B5E6, #2e88c0);
+    background: -moz-linear-gradient(top, #66B5E6, #2e88c0);
+    background: linear-gradient(top, #66B5E6, #2e88c0);
+    background: -ms-linear-gradient(top, #66B5E6, #2e88c0);
+    border: 1px solid #2576A8;
+    box-shadow: 0 1px 2px #B8DCF1 inset, 0 -1px 0 #316F96 inset;
+    color: #fff;
+    text-shadow: 1px 1px 0.5px #22629B;
+}
+
+span {
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    margin-top: 10px;
+    float: right;
+    color: #ea2323;
+    font-size: 14px;
+    padding-left: 5px;
+    text-align: center;
+}
+
+#submit_login {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.list {
+    width: 530px;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.list>ul>li {
+    height: 50px;
+    width: fit-content;
+    line-height: 50px;
+    display: flex;
+}
+
+.list2 {
+    width: 830px;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.list2_item {
+    display: block;
+}
+
+.tip-error {
+    display: none;
+    margin-top: 14px;
+    margin-left: 10px;
+    width: 220px;
+}
+
+.list2 .listcontent {
+    width: 100%;
+}
+
+.list2 .list_log {
+    width: 50%;
+}
+
+
+.list_add_model, .list_edit_model {
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 830px;
+    height: 400px;
+    padding: 20px;
+    border: 3px solid #ccc;
+    background-color: white;
+    z-index:2;
+    overflow: auto;
+}
+
+#backGround {
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 1100px;
+    background-color: black;
+    z-index:1;
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=88);
+}
+
+#list_add:hover, #list_edit:hover {
+    cursor: pointer;color: rgb(55,198,192);
+}
+
+.model_tile {
+    width: 65%;
+}
